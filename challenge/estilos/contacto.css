@@ -4,7 +4,7 @@ section.formcontato{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 64px;
+    padding: 64px 78px;
     gap: 10px;
 
     width: 1850px;
