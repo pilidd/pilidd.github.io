@@ -1,0 +1,61 @@
+/*Sección Title*/
+
+section.title{
+    width: 1700px;
+    height: 368px;
+    margin: 32px 0px;
+
+}
+
+.title__div{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    
+    justify-content: space-evenly;
+    gap: 20px;
+    
+}
+
+.title__container{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 30px;
+
+    width: 751px;
+    height: 372px;
+}
+
+.title__bio{
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 61px;
+    color: #464646;
+}
+
+.title__subsection{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #464646;
+}
+
+.title__network{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 32px;
+    padding: 0; 
+    width: 467px;
+    height: 24px;
+}
+
+.title__network__item a{
+    color: #464646;
+}
+
+.title__profile{
+    
+    margin-bottom: 75px;
+}
