@@ -1,0 +1,303 @@
+/*Contacto*/
+
+section.formcontato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px;
+    gap: 10px;
+
+    width: 1850px;
+    height: 788px;
+
+   
+
+    background: #EAF2FD;
+    
+}
+
+.formcontato__contacto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 64px 0px 0px;
+    gap: 16px;
+
+    width: 1136px;
+    height: 660px;
+}
+
+.formcontato__text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 110px;
+
+    width: 656px;
+    height: 596px;
+}
+
+
+.formcontato__titles{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 656px;
+    height: 37px;
+}
+
+
+
+
+
+.formcontato__title{
+    width: 123px;
+    height: 38px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+    padding-bottom: 12px;
+}
+
+.formcontato__subtext{
+    width: 656px;
+    height: 38px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+   
+    color: #464646;
+}
+ 
+
+.formcontato__form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+
+    width: 656px;
+    height: 446px;
+}
+
+
+.formcontato__input{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 1rem;
+    gap: 8px;
+
+    width: 656px;
+    height: 56px;
+   
+    background: #FFFFFF;
+    border-radius: 4px;
+   
+    border: none;
+    box-shadow: 0px 1px 0px #80808080;
+
+    caret-color: #2A7AE4;
+
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    
+
+    display: flex;
+    align-items: center;
+
+    
+
+    color: #464646;
+}
+
+
+
+input:focus{
+   
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    
+
+    display: flex;
+    align-items: center;
+
+    
+    outline:none;
+    color: #464646;
+    box-shadow: 0px 3px 0px #2A7AE4;
+
+}
+
+input::placeholder {
+    width: 304px;
+    height: 24px;
+    padding-left: 5px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    
+    display: flex;
+    align-items: center;
+
+    color: #A2A2A2;
+}
+
+input:focus::placeholder{
+    
+    width: 632px;
+    height: 16px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+     
+
+    display: flex;
+    align-items: center;
+
+    
+
+    color: #2A7AE4;
+}
+ 
+
+
+
+.formcontato__textarea{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 1rem;
+    gap: 8px;
+    caret-color: #2A7AE4;
+    width: 656px;
+    height: 133px;
+   
+    background: #FFFFFF;
+    border-radius: 4px;
+   
+    border: none;
+    box-shadow: 0px 1px 0px #80808080;
+   
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+   
+
+    color: #464646;
+
+}
+
+
+textarea::placeholder{
+    width: 304px;
+    height: 24px;
+    padding: 1em 0 0 5px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    
+
+    display: flex;
+    align-items: center;
+
+    color: #A2A2A2;
+}
+
+textarea:focus{
+    outline:none;
+    padding: 1rem;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+
+
+    color: #464646;
+    box-shadow: 0px 3px 0px #2A7AE4;
+
+}
+
+textarea:focus::placeholder{
+    
+    width: 632px;
+    height: 16px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+     
+
+    display: flex;
+    align-items: center;
+
+    
+
+    color: #2A7AE4;
+}
+ 
+
+
+
+.formcontato__botao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    width: 150px;
+    height: 51px;
+    background: #2A7AE4;
+    border-style: none;
+    cursor: pointer;
+
+}
+
+.texto__boton{
+    width: 130px;
+    height: 19px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    
+}

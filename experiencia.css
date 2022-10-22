@@ -1,0 +1,164 @@
+/* experiencia*/
+
+section.experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    width: 1136px;
+    height: 1886px;
+    margin-bottom: 32px;
+
+}
+
+.experience__section__title{
+    width: fit-content;
+    height: 38px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;    
+    text-align: center;
+
+    color: #464646;
+
+}
+
+
+.experiencie__box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    width: 1136px;
+    height: 406px;
+
+}
+
+.reverse{
+    flex-direction: row-reverse;
+    margin-left: 190px;
+}
+
+
+.experience__img{
+    width: 752px;
+    height: 406px;
+    border-radius: 0px;
+}
+
+.experience__info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 368px;
+    height: 112px;
+} 
+
+.experience__title{
+    width: 368px;
+    height: 55px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+  
+
+    color: #464646;
+}
+
+.experience__text{
+    width: 368px;
+    height: 19px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+   
+
+    color: #464646;
+}
+
+.experience__description{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 560px;
+    height: 51px;
+}
+
+.experience__repo{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+
+    width: 116px;
+    height: 51px;
+
+
+    border: 1px solid #2A7AE4;
+}
+.experiencia__botao--repo{
+    width: fit-content;
+    height: 19px;
+
+    cursor: pointer;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    border-style: none;
+    background: none;
+    
+
+    color: #2A7AE4
+}
+
+.experience__demo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    box-sizing: border-box;
+    width: 105px;
+    height: 51px;
+
+   
+
+    background: #2A7AE4;
+}
+
+.experience__botao--demo{
+    width: 90px;
+    height: 19px;
+    background: content-box;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;    
+    border-style: none;
+    cursor: pointer;
+  
+
+    color: #FFFFFF;
+}
